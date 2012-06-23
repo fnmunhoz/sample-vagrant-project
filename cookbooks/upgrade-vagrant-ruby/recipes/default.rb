@@ -27,6 +27,7 @@ script "replace_ruby" do
     echo "PATH=$PATH:/opt/ruby/bin" > /etc/profile.d/vagrant_ruby.sh
     source /etc/profile.d/vagrant_ruby.sh
     rm -rf /opt/vagrant_ruby
-    gem install chef
   EOH
 end
+
+gem_package "chef"
