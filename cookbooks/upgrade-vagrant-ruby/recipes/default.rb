@@ -3,7 +3,7 @@
 # Recipe:: default
 #
 
-package = "ruby_1.9.3-p194-1_amd64.deb"
+package = "ruby_1.9.3-p194-2_amd64.deb"
 file_path = "/tmp/#{package}.deb"
 
 remote_file package do
