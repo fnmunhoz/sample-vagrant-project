@@ -1,0 +1,11 @@
+=== Use this project as a template for new projects
+
+  $ git clone git://github.com/fnmunhoz/sample-vagrant-project.git some-awesome-project
+
+  $ cd some-awesome-project
+
+  $ rm .git
+
+  $ vagrant box add precise64 http://files.vagrantup.com/precise64.box
+
+  $ vagrant up
