@@ -1,6 +1,6 @@
-=== Use this project as a template for new projects
+=== Vagrant basebox build from the official precise64 box but with ruby 1.9.3
 
-  $ git clone git://github.com/fnmunhoz/sample-vagrant-project.git sample-vagrant-project
+  $  git clone git://github.com/fnmunhoz/sample-vagrant-project.git sample-vagrant-project
 
   $ cd sample-vagrant-project
 
@@ -11,3 +11,5 @@
   $ vagrant up
 
 ===== This base box is available here http://storage.felipemunhoz.com/boxes/precise64-ruby193.box
+
+Warning: vagrant box without puppet support, only chef
