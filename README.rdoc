@@ -12,4 +12,4 @@
 
 ===== This base box is available here http://storage.felipemunhoz.com/boxes/precise64-ruby193.box
 
-Warning: vagrant box without puppet support, only chef
+Warning: vagrant box without puppet support, only chef.
